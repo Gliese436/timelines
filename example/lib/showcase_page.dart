@@ -118,7 +118,7 @@ class _ShowcaseCard extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Icon(
-                              FontAwesomeIcons.dribbble,
+                              FontAwesomeIcons.dribbble.data,
                               semanticLabel: 'Original',
                               size: 10.0,
                               color: Colors.grey[600],

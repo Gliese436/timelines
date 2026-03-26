@@ -163,7 +163,7 @@ class _ProcessTimelinePageState extends State<ProcessTimelinePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(FontAwesomeIcons.chevronRight),
+        child: Icon(FontAwesomeIcons.chevronRight.data),
         onPressed: () {
           setState(() {
             _processIndex = (_processIndex + 1) % _processes.length;
